@@ -7,6 +7,7 @@
 size = Vector2(30, 56)
 
 [node name="Normal_Zombie" type="Area2D" unique_id=961247647]
+collision_layer = 4
 script = ExtResource("1_varvs")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2093357180]
@@ -14,6 +15,7 @@ position = Vector2(1.25, 6)
 shape = SubResource("RectangleShape2D_n574s")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1866020188]
+light_mask = 4
 position = Vector2(1.1249924, 4.999996)
 scale = Vector2(0.105371885, 0.10333333)
 texture = ExtResource("2_8hvg1")

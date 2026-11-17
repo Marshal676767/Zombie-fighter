@@ -21,14 +21,17 @@ func _process(delta: float) -> void:
 size = Vector2(29.5, 74.5)
 
 [node name="Boost_Zombie" type="Area2D" unique_id=1568157341]
+collision_layer = 4
 script = ExtResource("1_8yk1e")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1193751160]
+light_mask = 4
 position = Vector2(-0.5624924, 2.8125153)
 scale = Vector2(0.038078796, 0.056088496)
 texture = ExtResource("1_b286q")
 script = SubResource("GDScript_iqn5l")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1898332192]
+light_mask = 4
 position = Vector2(1.875, 0)
 shape = SubResource("RectangleShape2D_px21y")

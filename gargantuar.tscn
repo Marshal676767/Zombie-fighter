@@ -7,6 +7,7 @@
 size = Vector2(226, 172)
 
 [node name="Gargantuar" type="Area2D" unique_id=870628292]
+collision_layer = 4
 script = ExtResource("1_63igq")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=800744717]
@@ -15,5 +16,6 @@ scale = Vector2(0.18171763, 0.14871539)
 texture = ExtResource("2_hjeq6")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=43275989]
+light_mask = 4
 position = Vector2(4.875, 3)
 shape = SubResource("RectangleShape2D_8yk1e")

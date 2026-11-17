@@ -8,6 +8,7 @@ size = Vector2(41, 89)
 
 [node name="Disco Zombie" type="Area2D" unique_id=1696695179]
 position = Vector2(-540, -500)
+collision_layer = 4
 script = ExtResource("1_ntwng")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1781837499]
